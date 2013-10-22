@@ -6,5 +6,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="newStory">Create a New Story</string>
     <string name="checkStory">Check Previous Stories</string>
+    <string name="createStory">Create Story</string>
+    <string name="cancelButton">Cancel</string>
+    <string name="checkRequests">View Story Requests</string>
 
 </resources>
