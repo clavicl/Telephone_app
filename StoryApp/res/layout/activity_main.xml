@@ -15,27 +15,39 @@
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
-        android:id="@+id/checkStory"
+        android:id="@+id/checkCreatedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="@string/checkStory" />
+        android:text="@string/checkCreated"
+        android:onClick="checkCreated" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/newStoryButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/checkStory"
+        android:layout_above="@+id/checkCreatedButton"
         android:layout_centerHorizontal="true"
+        android:text="@string/newStory" 
+        android:onClick="createStory" />
+
+    <Button
+        android:id="@+id/checkContributedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkCreatedButton"
+        android:layout_centerHorizontal="true"
+        android:text="@string/checkParticipated" 
+        android:onClick="checkContributed"/>
+
+    <Button
+        android:id="@+id/viewRequestButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/checkCreatedButton"
+        android:layout_below="@+id/checkContributedButton"
+        android:onClick="checkRequest"
         android:text="@string/checkRequests" />
-
-    <Button
-        android:id="@+id/newStory"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/checkStory"
-        android:layout_centerHorizontal="true"
-        android:text="@string/newStory" />
 
 </RelativeLayout>
