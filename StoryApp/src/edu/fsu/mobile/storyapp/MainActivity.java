@@ -7,7 +7,6 @@ import android.view.Menu;
 import android.view.View;
 
 
-// this is a test - Ryan Alain
 public class MainActivity extends Activity {
 
 	@Override
