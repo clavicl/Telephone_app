@@ -5,7 +5,7 @@
     android:orientation="vertical" >
 
     <FrameLayout
-        android:id="@+id/requestList"
+        android:id="@+id/requestListFrame"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" >
@@ -13,7 +13,7 @@
     </FrameLayout>
 
     <FrameLayout
-        android:id="@+id/viewStory"
+        android:id="@+id/viewStoryFrame"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" >
@@ -21,7 +21,7 @@
     </FrameLayout>
 
     <FrameLayout
-        android:id="@+id/addToStory"
+        android:id="@+id/addToStoryFrame"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" >

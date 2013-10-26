@@ -22,6 +22,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity 
+            android:name="CreateStoryActivity" 
+            android:label="@string/createStoryTitle"
+            android:parentActivityName="edu.fsu.mobile.storyapp.MainActivity.java">
+        </activity>
+        <activity 
+            android:name="CheckCreatedActivity" 
+            android:label="@string/checkCreatedTitle"
+            android:parentActivityName="edu.fsu.mobile.storyapp.MainActivity.java">
+        </activity>
+        <activity 
+            android:name="CheckContributedActivity" 
+            android:label="@string/checkContributedTitle"
+            android:parentActivityName="edu.fsu.mobile.storyapp.MainActivity.java">
+        </activity>
+        <activity 
+            android:name="CheckRequestActivity" 
+            android:label="@string/checkRequestTitle"
+            android:parentActivityName="edu.fsu.mobile.storyapp.MainActivity.java">
+        </activity>
     </application>
 
 </manifest>

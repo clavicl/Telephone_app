@@ -24,34 +24,36 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int TableLayout1=0x7f080009;
-        public static final int action_settings=0x7f080010;
-        public static final int addStoryText=0x7f080004;
-        public static final int addToStory=0x7f080008;
-        public static final int button1=0x7f080002;
-        public static final int button2=0x7f08000d;
-        public static final int checkStory=0x7f080001;
-        public static final int createdList=0x7f08000e;
-        public static final int list=0x7f080005;
-        public static final int newStory=0x7f080003;
-        public static final int participatedList=0x7f08000f;
-        public static final int requestList=0x7f080006;
+        public static final int TableLayout1=0x7f080006;
+        public static final int action_settings=0x7f080012;
+        public static final int addStoryText=0x7f080005;
+        public static final int addToStoryFrame=0x7f08000e;
+        public static final int cancelButton=0x7f08000a;
+        public static final int checkContributedButton=0x7f080003;
+        public static final int checkCreatedButton=0x7f080001;
+        public static final int createButton=0x7f08000b;
+        public static final int list=0x7f08000f;
+        public static final int newStoryButton=0x7f080002;
+        public static final int newStoryText=0x7f080008;
+        public static final int requestListFrame=0x7f08000c;
+        public static final int storyListFrame=0x7f080010;
         public static final int storyText=0x7f080000;
-        public static final int story_text=0x7f08000b;
-        public static final int tableRow1=0x7f08000a;
-        public static final int tableRow2=0x7f08000c;
-        public static final int viewStory=0x7f080007;
+        public static final int storyTextFrame=0x7f080011;
+        public static final int tableRow1=0x7f080007;
+        public static final int tableRow2=0x7f080009;
+        public static final int viewRequestButton=0x7f080004;
+        public static final int viewStoryFrame=0x7f08000d;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int add_text=0x7f030001;
-        public static final int created_list=0x7f030002;
-        public static final int list_view=0x7f030003;
+        public static final int add_text_fragment=0x7f030001;
+        public static final int create_view=0x7f030002;
+        public static final int created_list_fragment=0x7f030003;
         public static final int participated_list=0x7f030004;
-        public static final int request_list=0x7f030005;
+        public static final int request_list_fragment=0x7f030005;
         public static final int request_view=0x7f030006;
-        public static final int story_create=0x7f030007;
-        public static final int story_text=0x7f030008;
+        public static final int story_list_fragment=0x7f030007;
+        public static final int story_text_fragment=0x7f030008;
         public static final int story_view=0x7f030009;
     }
     public static final class menu {
@@ -61,9 +63,14 @@ public final class R {
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
         public static final int cancelButton=0x7f050006;
+        public static final int checkContributedTitle=0x7f05000b;
+        public static final int checkCreated=0x7f050004;
+        public static final int checkCreatedTitle=0x7f05000a;
+        public static final int checkParticipated=0x7f050008;
+        public static final int checkRequestTitle=0x7f05000c;
         public static final int checkRequests=0x7f050007;
-        public static final int checkStory=0x7f050004;
         public static final int createStory=0x7f050005;
+        public static final int createStoryTitle=0x7f050009;
         public static final int hello_world=0x7f050002;
         public static final int newStory=0x7f050003;
     }

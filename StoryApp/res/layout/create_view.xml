@@ -12,9 +12,9 @@
         android:layout_weight="9">
 
         <EditText
-            android:id="@+id/story_text"
+            android:id="@+id/newStoryText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10" />
 
@@ -27,14 +27,14 @@
         android:layout_weight="1" >
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/cancelButton"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="@string/cancelButton" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/createButton"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
