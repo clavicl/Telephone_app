@@ -14,5 +14,7 @@
     <string name="checkCreatedTitle">View Created Stories</string>
     <string name="checkContributedTitle">View Contributed Stories</string>
     <string name="checkRequestTitle">View Current Story Requests</string>
+    <string name="storyTitle">Story title goes here</string>
+    <string name="storyText">Story goes here</string>
 
 </resources>
