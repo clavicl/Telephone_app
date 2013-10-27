@@ -45,9 +45,9 @@
         android:id="@+id/viewRequestButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/checkCreatedButton"
-        android:layout_below="@+id/checkContributedButton"
         android:onClick="checkRequest"
-        android:text="@string/checkRequests" />
+        android:text="@string/checkRequests"
+        android:layout_below="@+id/checkContributedButton"
+        android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>
