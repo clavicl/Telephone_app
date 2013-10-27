@@ -2,6 +2,7 @@ package edu.fsu.mobile.storyapp;
 
 import android.app.Activity;
 import android.content.Context;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.telephony.TelephonyManager;
 import android.util.Log;
@@ -27,6 +28,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -74,68 +76,70 @@ public class CreateStoryActivity extends Activity
     {
         Max_words = maxWords;
         Next_contributor = nextContributor;
-        createStory();
+        //createStory();
+        ProcessingTask processingTask = new ProcessingTask();
+        String ans =processingTask.execute("this is").toString();
         finish();
     }
 
     private void createStory()
     {
-        StringBuilder builder = new StringBuilder();
-        HttpClient client = new DefaultHttpClient();
-        String amp = "&";
-        String base = "http://myligaapi.elementfx.com/teleApp/editStory.php";//?flag=add&" +
-                      // "story=";
-        String url = base +"?flag=add" + amp +
-                "story=" + Story + amp +
-                "words_max="+ Max_words + amp +
-                "next=" + Next_contributor + amp +
-                "creator=" + Pnumber + amp +
-                "title=" + Title;
-        url = url.replaceAll(" ", "%20");
-        HttpGet httpGet = new HttpGet(url);
+    }
 
-        HttpPut httpPut = new HttpPut(base);
-        List<NameValuePair> pairs = new ArrayList<NameValuePair>();
-        pairs.add(new BasicNameValuePair("flag","add"));
-        pairs.add(new BasicNameValuePair("story",Story));
-        pairs.add(new BasicNameValuePair("words_max",Max_words));
+    protected class ProcessingTask extends AsyncTask<String, Void, String>{
+        @Override
+        protected String doInBackground(String ... urls) {
+            String flag = "0";
+            StringBuilder builder = new StringBuilder();
+            HttpClient client = new DefaultHttpClient();
+            String amp = "&";
+            String base = "http://myligaapi.elementfx.com/teleApp/editStory.php";//?flag=add&" +
+            // "story=";
+            String url = base +"?flag=add" + amp +
+                    "story=" + Story + amp +
+                    "words_max="+ Max_words + amp +
+                    "next=" + Next_contributor + amp +
+                    "creator=" + Pnumber + amp +
+                    "title=" + Title;
+            url = url.replaceAll(" ", "%20");
+            HttpGet httpGet = new HttpGet(url);
 
-        httpPut.setEntity(new UrlEncodedFormEntity(pairs));
-
-
-        try {
-            HttpResponse response = client.execute(httpGet);
-            StatusLine statusLine = response.getStatusLine();
-            int statusCode = statusLine.getStatusCode();
-            if (statusCode == 200) {
-                HttpEntity entity = response.getEntity();
-                InputStream content = entity.getContent();
-                BufferedReader reader = new BufferedReader(new InputStreamReader(content));
-                String line;
-                while ((line = reader.readLine()) != null) {
-                    builder.append(line);
+            try {
+                HttpResponse response = client.execute(httpGet);
+                StatusLine statusLine = response.getStatusLine();
+                int statusCode = statusLine.getStatusCode();
+                if (statusCode == 200) {
+                    HttpEntity entity = response.getEntity();
+                    InputStream content = entity.getContent();
+                    BufferedReader reader = new BufferedReader(new InputStreamReader(content));
+                    String line;
+                    while ((line = reader.readLine()) != null) {
+                        builder.append(line);
+                    }
+                } else {
+                    Log.e(CreateStoryActivity.class.toString(), "Failed to download file");
                 }
-            } else {
-                Log.e(CreateStoryActivity.class.toString(), "Failed to download file");
+            } catch (ClientProtocolException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
             }
-        } catch (ClientProtocolException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
+
+            try{
+                JSONObject jsonObject = new JSONObject(builder.toString());
+                flag = jsonObject.getString("flag");
+            }catch (Exception e)
+            {
+                e.printStackTrace();
+            }
+
+            return flag;
         }
 
-        try{
-            JSONObject jsonObject = new JSONObject(builder.toString());
-            String flag = jsonObject.getString("flag");
-            if (flag.equals("1"))
-            {
-                Toast.makeText(getApplicationContext(),"Story created successful",Toast.LENGTH_LONG);
-            }
-            else
-                Toast.makeText(getApplicationContext(),"Failed to create story, please try again",Toast.LENGTH_LONG);
-        }catch (Exception e)
-        {
-            e.printStackTrace();
+        @Override
+        protected void onPostExecute(String result) {
+            if (result.equals("1"))
+                Toast.makeText(getApplicationContext(),"Story created successful",Toast.LENGTH_LONG).show();
         }
     }
 

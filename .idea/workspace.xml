@@ -13,21 +13,14 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="http" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="create" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6609c0c1-8f8d-4e35-847f-1687043d320a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StoryApp/res/layout/create_settings_dialog.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StoryApp/AndroidManifest.xml" afterPath="$PROJECT_DIR$/StoryApp/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateSettingsDialog.java" afterPath="$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateSettingsDialog.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateStoryActivity.java" afterPath="$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateStoryActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StoryApp/gen/edu/fsu/mobile/storyapp/Manifest.java" afterPath="$PROJECT_DIR$/StoryApp/gen/edu/fsu/mobile/storyapp/Manifest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StoryApp/gen/edu/fsu/mobile/storyapp/R.java" afterPath="$PROJECT_DIR$/StoryApp/gen/edu/fsu/mobile/storyapp/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StoryApp/res/layout/create_view.xml" afterPath="$PROJECT_DIR$/StoryApp/res/layout/create_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StoryApp/res/values/strings.xml" afterPath="$PROJECT_DIR$/StoryApp/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Telephone_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,68 +78,6 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateStoryActivity.java" line="106" class="edu.fsu.mobile.storyapp.CreateStoryActivity" package="edu.fsu.mobile.storyapp">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateStoryActivity.java" line="129" class="edu.fsu.mobile.storyapp.CreateStoryActivity" package="edu.fsu.mobile.storyapp">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateStoryActivity.java" line="77" class="edu.fsu.mobile.storyapp.CreateStoryActivity" package="edu.fsu.mobile.storyapp">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateStoryActivity.java" line="108" class="edu.fsu.mobile.storyapp.CreateStoryActivity" package="edu.fsu.mobile.storyapp">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -156,24 +87,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="799">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CreateStoryActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateStoryActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="59" selection-start="3622" selection-end="3622" vertical-scroll-proportion="0.7094017" vertical-offset="1485" max-vertical-offset="2516">
+            <state line="91" column="30" selection-start="3039" selection-end="3039" vertical-scroll-proportion="1.0968661" vertical-offset="1162" max-vertical-offset="2584">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1605#2060#0" expanded="true" />
-                <element signature="e#2049#2050#0" expanded="true" />
-                <element signature="e#3362#3377#0" expanded="true" />
+                <element signature="e#1669#2124#0" expanded="true" />
+                <element signature="e#2113#2114#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -193,7 +114,7 @@
       <file leaf-file-name="CreateSettingsDialog.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateSettingsDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1569" selection-end="1569" vertical-scroll-proportion="0.0" vertical-offset="597" max-vertical-offset="1139">
+            <state line="45" column="0" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1139">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1442#1827#0" expanded="true" />
@@ -676,7 +597,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924242" sideWeight="0.6012759" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24924242" sideWeight="0.6012759" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32750398" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
@@ -727,13 +648,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="10" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="47" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="799">
@@ -822,9 +736,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-18/android/os/AsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="533" column="0" selection-start="21425" selection-end="21425" vertical-scroll-proportion="0.0" vertical-offset="8417" max-vertical-offset="10914">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateSettingsDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1569" selection-end="1569" vertical-scroll-proportion="0.0" vertical-offset="563" max-vertical-offset="1139">
+        <state line="45" column="0" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1139">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1442#1827#0" expanded="true" />
@@ -833,14 +754,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-18/com/android/internal/app/AlertController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="166" column="0" selection-start="5047" selection-end="5047" vertical-scroll-proportion="0.0" vertical-offset="1787" max-vertical-offset="15674">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-18/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="0" selection-start="4070" selection-end="4070" vertical-scroll-proportion="0.0" vertical-offset="1265" max-vertical-offset="13226">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-18/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="0" selection-start="4791" selection-end="4791" vertical-scroll-proportion="0.0" vertical-offset="1957" max-vertical-offset="5202">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateStoryActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="59" selection-start="3622" selection-end="3622" vertical-scroll-proportion="0.7094017" vertical-offset="1485" max-vertical-offset="2516">
+        <state line="91" column="30" selection-start="3039" selection-end="3039" vertical-scroll-proportion="1.0968661" vertical-offset="1162" max-vertical-offset="2584">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1605#2060#0" expanded="true" />
-            <element signature="e#2049#2050#0" expanded="true" />
-            <element signature="e#3362#3377#0" expanded="true" />
+            <element signature="e#1669#2124#0" expanded="true" />
+            <element signature="e#2113#2114#0" expanded="true" />
           </folding>
         </state>
       </provider>
