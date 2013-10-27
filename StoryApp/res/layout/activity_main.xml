@@ -2,7 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity"
+    android:background="#FFF0D3">
 
     <TextView
         android:id="@+id/storyText"
@@ -12,7 +13,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="52dp"
         android:text="@string/app_name"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:typeface="monospace"
+        android:phoneNumber="false"/>
 
     <Button
         android:id="@+id/checkCreatedButton"
@@ -21,7 +24,8 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text="@string/checkCreated"
-        android:onClick="checkCreated" />
+        android:onClick="checkCreated"
+        android:typeface="monospace"/>
 
     <Button
         android:id="@+id/newStoryButton"
@@ -30,7 +34,8 @@
         android:layout_above="@+id/checkCreatedButton"
         android:layout_centerHorizontal="true"
         android:text="@string/newStory" 
-        android:onClick="createStory" />
+        android:onClick="createStory"
+        android:typeface="monospace"/>
 
     <Button
         android:id="@+id/checkContributedButton"
@@ -39,7 +44,8 @@
         android:layout_below="@+id/checkCreatedButton"
         android:layout_centerHorizontal="true"
         android:text="@string/checkParticipated" 
-        android:onClick="checkContributed"/>
+        android:onClick="checkContributed"
+        android:typeface="monospace"/>
 
     <Button
         android:id="@+id/viewRequestButton"
@@ -48,6 +54,7 @@
         android:onClick="checkRequest"
         android:text="@string/checkRequests"
         android:layout_below="@+id/checkContributedButton"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:typeface="monospace"/>
 
 </RelativeLayout>
