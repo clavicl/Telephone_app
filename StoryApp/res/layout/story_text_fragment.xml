@@ -4,12 +4,23 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#fff0d3">
+<<<<<<< HEAD
 
+=======
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
     <TextView
         android:id="@+id/storyText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView"
         android:typeface="monospace"/>
+<<<<<<< HEAD
+=======
+>>>>>>> 2046a3e07470e6b88ad8758c6c2958da6d605c14
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
 
 </LinearLayout>

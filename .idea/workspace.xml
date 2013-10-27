@@ -7,12 +7,39 @@
   </component>
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <target>android-17</target>
+      </config>
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/StoryApp/res/layout/activity_main.xml">
+        <config>
+          <device>Nexus S</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/StoryApp/res/layout/add_text_fragment.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/StoryApp/res/layout/create_settings_dialog.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+    </layouts>
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="8b9d73c3-55b0-4b39-824b-519f3cacd1cf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StoryApp/gen/edu/fsu/mobile/storyapp/BuildConfig.java" afterPath="$PROJECT_DIR$/StoryApp/gen/edu/fsu/mobile/storyapp/BuildConfig.java" />
+=======
+<<<<<<< HEAD
+    <list default="true" id="6609c0c1-8f8d-4e35-847f-1687043d320a" name="Default" comment="">
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CheckContributedActivity.java" afterPath="$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CheckContributedActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/gradle_wrapper1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/gradle_wrapper1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/gradle_wrapper13.xml" afterPath="$PROJECT_DIR$/.idea/libraries/gradle_wrapper13.xml" />
@@ -22,6 +49,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StoryApp/res/layout/story_view.xml" afterPath="$PROJECT_DIR$/StoryApp/res/layout/story_view.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+=======
+    <list default="true" id="6609c0c1-8f8d-4e35-847f-1687043d320a" name="Default" comment="" />
+>>>>>>> 2046a3e07470e6b88ad8758c6c2958da6d605c14
     <ignored path="Telephone_app.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,6 +61,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+<<<<<<< HEAD
+=======
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="USE_COMPILE_SERVER" value="false" />
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -38,6 +75,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -74,7 +112,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -83,6 +120,7 @@
     <favorites_list name="Telephone_app" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file leaf-file-name="create_view.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/create_view.xml">
@@ -199,6 +237,9 @@
         </entry>
       </file>
     </leaf>
+=======
+    <leaf />
+>>>>>>> 2046a3e07470e6b88ad8758c6c2958da6d605c14
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -243,20 +284,68 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/StoryApp/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/StoryApp/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateSettingsDialog.java" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/StoryApp/res/layout/create_settings_dialog.xml" />
+        <option value="$PROJECT_DIR$/StoryApp/res/layout/story_list_fragment.xml" />
+        <option value="$PROJECT_DIR$/StoryApp/res/layout/story_text_fragment.xml" />
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
         <option value="$PROJECT_DIR$/StoryApp/res/layout/story_view.xml" />
         <option value="$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CheckContributedActivity.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/StoryApp/res/layout/story_text_fragment.xml" />
         <option value="$PROJECT_DIR$/StoryApp/res/layout/story_list_fragment.xml" />
+=======
+        <option value="$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CheckCreatedActivity.java" />
+=======
+        <option value="$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateStoryActivity.java" />
+        <option value="$PROJECT_DIR$/StoryApp/res/layout/story_view.xml" />
+        <option value="$PROJECT_DIR$/StoryApp/res/layout/participated_list.xml" />
+        <option value="$PROJECT_DIR$/StoryApp/res/layout/create_settings_dialog.xml" />
+        <option value="$PROJECT_DIR$/StoryApp/res/layout/add_text_fragment.xml" />
+        <option value="$PROJECT_DIR$/StoryApp/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/StoryApp/res/layout/created_list_fragment.xml" />
+        <option value="$PROJECT_DIR$/StoryApp/res/layout/request_list_fragment.xml" />
+        <option value="$PROJECT_DIR$/StoryApp/res/layout/request_view.xml" />
+        <option value="$PROJECT_DIR$/StoryApp/res/layout/story_list_fragment.xml" />
+        <option value="$PROJECT_DIR$/StoryApp/res/layout/story_text_fragment.xml" />
+        <option value="$PROJECT_DIR$/StoryApp/res/layout/create_view.xml" />
+>>>>>>> 2046a3e07470e6b88ad8758c6c2958da6d605c14
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="x" value="142" />
+    <option name="y" value="30" />
+    <option name="width" value="1311" />
     <option name="height" value="784" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+=======
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -328,28 +417,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storyapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Telephone_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Telephone_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StoryApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -374,10 +441,29 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scope">
+        <subPane subId="Default" />
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Telephone_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -393,7 +479,33 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="be1f0577" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="google_avd" />
+=======
+>>>>>>> 2046a3e07470e6b88ad8758c6c2958da6d605c14
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="xml.catalog" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="be1f0577" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="my_avd" />
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
     <property name="FullScreen" value="false" />
+<<<<<<< HEAD
+=======
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+>>>>>>> 2046a3e07470e6b88ad8758c6c2958da6d605c14
   </component>
   <component name="RunManager" selected="Android Application.CheckCreatedActivity">
     <configuration default="false" name="CheckCreatedActivity" type="AndroidRunConfigurationType" factoryName="Android Application" temporary="true">
@@ -431,7 +543,6 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -442,6 +553,23 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+<<<<<<< HEAD
+=======
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+<<<<<<< HEAD
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -469,6 +597,7 @@
       <listeners />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -482,6 +611,10 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
+=======
+=======
+>>>>>>> 2046a3e07470e6b88ad8758c6c2958da6d605c14
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
     <configuration default="true" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
@@ -521,7 +654,10 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
+<<<<<<< HEAD
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+=======
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -530,7 +666,29 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="StoryApp" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="StoryApp" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+<<<<<<< HEAD
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+=======
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
       <method />
     </configuration>
     <list size="1">
@@ -576,12 +734,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+=======
+    <frame x="142" y="30" width="1311" height="784" extended-state="0" />
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990461" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -594,6 +757,72 @@
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+<<<<<<< HEAD
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.6025437" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3974563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39872408" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+=======
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287891" sideWeight="0.6012759" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39872408" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39776358" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+>>>>>>> 2046a3e07470e6b88ad8758c6c2958da6d605c14
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5415335" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24924242" sideWeight="0.6025437" order="2" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2489992" sideWeight="0.60223645" order="2" side_tool="false" content_ui="combo" />
+>>>>>>> 2046a3e07470e6b88ad8758c6c2958da6d605c14
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32750398" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24924242" sideWeight="0.6012759" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32750398" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.6012759" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39872408" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5415335" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6009539" order="0" side_tool="false" content_ui="combo" />
@@ -611,17 +840,77 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
     </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/story_view.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="23" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="646">
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/StoryApp/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="45" selection-start="937" selection-end="937" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+=======
+    <entry file="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateStoryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="13" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.028333334" vertical-offset="561" max-vertical-offset="2941">
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
           <folding />
         </state>
       </provider>
@@ -629,7 +918,20 @@
         <state />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CheckContributedActivity.java">
+=======
+    <entry file="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="187" selection-end="187" vertical-scroll-proportion="0.028333334" vertical-offset="68" max-vertical-offset="799">
+>>>>>>> 2046a3e07470e6b88ad8758c6c2958da6d605c14
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/create_view.xml">
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
       <provider selected="true" editor-type-id="text-editor">
         <state line="215" column="13" selection-start="7452" selection-end="7452" vertical-scroll-proportion="0.0" vertical-offset="3655" max-vertical-offset="3655">
           <folding />
@@ -645,7 +947,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="21.6" vertical-offset="540" max-vertical-offset="1105">
+=======
+        <state line="12" column="10" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="459">
+=======
+    <entry file="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CheckCreatedActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.11333334" vertical-offset="0" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateSettingsDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="363" selection-end="363" vertical-scroll-proportion="0.028333334" vertical-offset="51" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/StoryViewDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="83" selection-end="83" vertical-scroll-proportion="0.11333334" vertical-offset="0" max-vertical-offset="600">
+>>>>>>> 2046a3e07470e6b88ad8758c6c2958da6d605c14
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
           <folding />
         </state>
       </provider>
@@ -653,6 +978,7 @@
         <state />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/add_text_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="11" selection-start="505" selection-end="505" vertical-scroll-proportion="-10.2" vertical-offset="0" max-vertical-offset="408">
@@ -664,6 +990,33 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/create_settings_dialog.xml">
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/StoryApp/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="19" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="935">
+          <folding>
+            <element signature="e#726#744#0" expanded="true" />
+            <element signature="e#1064#1090#0" expanded="true" />
+            <element signature="e#1289#1316#0" expanded="true" />
+            <element signature="e#1519#1550#0" expanded="true" />
+            <element signature="e#1749#1776#0" expanded="true" />
+          </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/story_view.xml">
+      <provider editor-type-id="text-editor">
+        <state line="18" column="25" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="527">
+          <folding />
+>>>>>>> 2046a3e07470e6b88ad8758c6c2958da6d605c14
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateSettingsDialog.java">
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565">
           <folding />
@@ -675,14 +1028,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/create_view.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+=======
+        <state line="9" column="18" selection-start="353" selection-end="353" vertical-scroll-proportion="-6.12" vertical-offset="0" max-vertical-offset="629">
+=======
+    <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/participated_list.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="562">
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
+      <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/created_list_fragment.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="313">
+>>>>>>> 2046a3e07470e6b88ad8758c6c2958da6d605c14
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/created_list_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565">
@@ -695,6 +1068,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/participated_list.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565">
           <folding />
         </state>
@@ -706,33 +1080,92 @@
     <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/request_list_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565">
+=======
+        <state line="5" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+=======
+    <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/add_text_fragment.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
+      <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/activity_main.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+>>>>>>> 2046a3e07470e6b88ad8758c6c2958da6d605c14
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/story_list_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="30" selection-start="548" selection-end="548" vertical-scroll-proportion="-6.12" vertical-offset="102" max-vertical-offset="527">
+=======
+    <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/create_settings_dialog.xml">
+      <provider editor-type-id="text-editor">
+        <state line="13" column="38" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="476">
+>>>>>>> 2046a3e07470e6b88ad8758c6c2958da6d605c14
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/request_view.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="26" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="697">
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/story_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="48" selection-start="906" selection-end="906" vertical-scroll-proportion="-9.2" vertical-offset="195" max-vertical-offset="595">
+=======
+    <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/create_view.xml">
+      <provider editor-type-id="text-editor">
+        <state line="18" column="22" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1207">
+>>>>>>> 2046a3e07470e6b88ad8758c6c2958da6d605c14
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
+      <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/story_list_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="20" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="510">
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/story_text_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="255">
+=======
+    <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/request_view.xml">
+      <provider editor-type-id="text-editor">
+        <state line="10" column="25" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="71" max-vertical-offset="680">
+>>>>>>> 2046a3e07470e6b88ad8758c6c2958da6d605c14
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
+      <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/story_text_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="23" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="357">
@@ -754,6 +1187,45 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CheckCreatedActivity.java">
+=======
+<<<<<<< HEAD
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-18/com/android/internal/os/ZygoteInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12172">
+          <folding>
+            <element signature="e#0#25702#0" expanded="false" />
+          </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/story_list_fragment.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="313">
+          <folding />
+>>>>>>> 2046a3e07470e6b88ad8758c6c2958da6d605c14
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-18/android/os/AsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="294" column="0" selection-start="12414" selection-end="12414" vertical-scroll-proportion="0.0" vertical-offset="4218" max-vertical-offset="10914">
+=======
+    <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/story_text_fragment.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="562">
+>>>>>>> 2046a3e07470e6b88ad8758c6c2958da6d605c14
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateStoryActivity.java">
+>>>>>>> 379eb69775cc3f2ad70796a97cb99e9f8f2c02e9
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="39" selection-start="1801" selection-end="1801" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="3825">
           <folding />
@@ -765,8 +1237,116 @@
         <state line="215" column="13" selection-start="7452" selection-end="7452" vertical-scroll-proportion="0.1903409" vertical-offset="3027" max-vertical-offset="3655">
           <folding />
         </state>
+=======
+    <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/request_list_fragment.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="562">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+>>>>>>> 2046a3e07470e6b88ad8758c6c2958da6d605c14
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>StoryApp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>android-support-v4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 
