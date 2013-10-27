@@ -53,7 +53,7 @@ public class CheckContributedActivity extends Activity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                TextView story_Textview = (TextView) view.findViewById(R.id.story);
+                TextView story_Textview = (TextView) view.findViewById(R.id.storyText);
                 String story="";
                 if (story_Textview != null)
                     story = story_Textview.getText().toString();

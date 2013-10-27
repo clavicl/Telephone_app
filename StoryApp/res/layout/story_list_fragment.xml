@@ -22,5 +22,4 @@
         android:layout_weight="0"
         android:visibility="gone"
         />
-
 </LinearLayout>
