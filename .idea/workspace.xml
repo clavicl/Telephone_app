@@ -2,9 +2,7 @@
 <project version="4">
   <component name="AndroidLayoutPreviewToolWindow">
     <option name="state">
-      <GlobalState>
-        <option name="visible" value="false" />
-      </GlobalState>
+      <GlobalState />
     </option>
   </component>
   <component name="AndroidLayouts">
@@ -21,6 +19,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateStoryActivity.java" afterPath="$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateStoryActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StoryApp/gen/edu/fsu/mobile/storyapp/Manifest.java" afterPath="$PROJECT_DIR$/StoryApp/gen/edu/fsu/mobile/storyapp/Manifest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StoryApp/gen/edu/fsu/mobile/storyapp/R.java" afterPath="$PROJECT_DIR$/StoryApp/gen/edu/fsu/mobile/storyapp/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StoryApp/res/layout/create_settings_dialog.xml" afterPath="$PROJECT_DIR$/StoryApp/res/layout/create_settings_dialog.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StoryApp/res/layout/create_view.xml" afterPath="$PROJECT_DIR$/StoryApp/res/layout/create_view.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StoryApp/res/values/strings.xml" afterPath="$PROJECT_DIR$/StoryApp/res/values/strings.xml" />
     </list>
     <ignored path="Telephone_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,11 +91,13 @@
       <file leaf-file-name="CreateStoryActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateStoryActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="30" selection-start="3039" selection-end="3039" vertical-scroll-proportion="1.0968661" vertical-offset="1162" max-vertical-offset="2584">
+            <state line="163" column="9" selection-start="5950" selection-end="5950" vertical-scroll-proportion="0.5156695" vertical-offset="2590" max-vertical-offset="2941">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1669#2124#0" expanded="true" />
-                <element signature="e#2113#2114#0" expanded="true" />
+                <element signature="e#1746#2459#0" expanded="true" />
+                <element signature="e#2448#2449#0" expanded="true" />
+                <element signature="e#2509#2651#0" expanded="true" />
+                <element signature="e#2640#2641#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,7 +117,7 @@
       <file leaf-file-name="CreateSettingsDialog.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateSettingsDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1139">
+            <state line="11" column="31" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="788" max-vertical-offset="1139">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1442#1827#0" expanded="true" />
@@ -124,10 +127,25 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="create_view.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/create_view.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="22" selection-start="612" selection-end="612" vertical-scroll-proportion="-10.2" vertical-offset="34" max-vertical-offset="1122">
+              <folding>
+                <element signature="e#653#673#0" expanded="true" />
+                <element signature="e#1109#1128#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="create_settings_dialog.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/create_settings_dialog.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="24" selection-start="414" selection-end="414" vertical-scroll-proportion="-5.44" vertical-offset="34" max-vertical-offset="459">
+            <state line="12" column="10" selection-start="491" selection-end="491" vertical-scroll-proportion="-8.16" vertical-offset="0" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
@@ -139,7 +157,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StoryApp/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="53" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+            <state line="17" column="45" selection-start="937" selection-end="937" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -210,12 +228,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/StoryApp/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/StoryApp/res/layout/create_view.xml" />
-        <option value="$PROJECT_DIR$/StoryApp/res/layout/create_settings_dialog.xml" />
-        <option value="$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateSettingsDialog.java" />
         <option value="$PROJECT_DIR$/StoryApp/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/StoryApp/res/layout/create_view.xml" />
+        <option value="$PROJECT_DIR$/StoryApp/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateSettingsDialog.java" />
         <option value="$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateStoryActivity.java" />
+        <option value="$PROJECT_DIR$/StoryApp/res/layout/create_settings_dialog.xml" />
       </list>
     </option>
   </component>
@@ -676,28 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/create_view.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="264" selection-end="278" vertical-scroll-proportion="0.3258786" vertical-offset="0" max-vertical-offset="1105">
-          <folding>
-            <element signature="e#653#673#0" expanded="true" />
-            <element signature="e#1109#1128#0" expanded="true" />
-            <element signature="e#1567#1589#0" expanded="true" />
-            <element signature="e#1804#1825#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StoryApp/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="53" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
@@ -706,25 +702,6 @@
       </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/create_settings_dialog.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="24" selection-start="414" selection-end="414" vertical-scroll-proportion="-5.44" vertical-offset="34" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StoryApp/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="65" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
-          <folding>
-            <element signature="e#726#744#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-18/com/android/internal/os/ZygoteInit.java">
@@ -740,17 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="533" column="0" selection-start="21425" selection-end="21425" vertical-scroll-proportion="0.0" vertical-offset="8417" max-vertical-offset="10914">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateSettingsDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1139">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1442#1827#0" expanded="true" />
-            <element signature="e#1816#1817#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,13 +741,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateStoryActivity.java">
+    <entry file="file://$PROJECT_DIR$/StoryApp/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="30" selection-start="3039" selection-end="3039" vertical-scroll-proportion="1.0968661" vertical-offset="1162" max-vertical-offset="2584">
+        <state line="17" column="45" selection-start="937" selection-end="937" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoryApp/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="65" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+          <folding>
+            <element signature="e#726#744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/create_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="22" selection-start="612" selection-end="612" vertical-scroll-proportion="-10.2" vertical-offset="34" max-vertical-offset="1122">
+          <folding>
+            <element signature="e#653#673#0" expanded="true" />
+            <element signature="e#1109#1128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoryApp/res/layout/create_settings_dialog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="10" selection-start="491" selection-end="491" vertical-scroll-proportion="-8.16" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateSettingsDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="31" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="788" max-vertical-offset="1139">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1669#2124#0" expanded="true" />
-            <element signature="e#2113#2114#0" expanded="true" />
+            <element signature="e#1442#1827#0" expanded="true" />
+            <element signature="e#1816#1817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoryApp/src/edu/fsu/mobile/storyapp/CreateStoryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="9" selection-start="5950" selection-end="5950" vertical-scroll-proportion="0.5156695" vertical-offset="2590" max-vertical-offset="2941">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1746#2459#0" expanded="true" />
+            <element signature="e#2448#2449#0" expanded="true" />
+            <element signature="e#2509#2651#0" expanded="true" />
+            <element signature="e#2640#2641#0" expanded="true" />
           </folding>
         </state>
       </provider>

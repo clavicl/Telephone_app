@@ -49,15 +49,27 @@ public class CreateStoryActivity extends Activity
         Pnumber = getMyPhoneNumber();
 
         Button createStory_Button = (Button)findViewById(R.id.createButton);
+        Button cancelStory_Button = (Button)findViewById(R.id.cancelButton);
         createStory_Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 CreateSettingsDialog dialog = new CreateSettingsDialog();
-
+                Title = null;
+                Story = null;
                 Title = ((EditText)findViewById(R.id.newStoryTitle)).getText().toString().trim();
                 Story = ((EditText)findViewById(R.id.newStoryText)).getText().toString().trim();
 
-                dialog.show(getFragmentManager(),"settingsDialog");
+                if (Title.isEmpty() || Story.isEmpty())
+                    Toast.makeText(getApplicationContext(),"Everything must be filled in!",Toast.LENGTH_LONG).show();
+                else
+                    dialog.show(getFragmentManager(),"settingsDialog");
+            }
+        });
+
+        cancelStory_Button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
             }
         });
 	}
@@ -74,16 +86,32 @@ public class CreateStoryActivity extends Activity
 
     public void onDialogClick(String maxWords, String nextContributor)
     {
+        Max_words = "";
+        Next_contributor = "";
         Max_words = maxWords;
         Next_contributor = nextContributor;
+        if (Max_words.isEmpty() || Next_contributor.isEmpty())
+            Toast.makeText(getApplicationContext(),"Everything must be filled in!",Toast.LENGTH_LONG).show();
+        else {
         //createStory();
-        ProcessingTask processingTask = new ProcessingTask();
-        String ans =processingTask.execute("this is").toString();
+        String amp = "&";
+        String base = "http://myligaapi.elementfx.com/teleApp/editStory.php";//?flag=add&" +
+        // "story=";
+        String url = base +"?flag=add" + amp +
+                "story=" + Story + amp +
+                "words_max="+ Max_words + amp +
+                "next=" + Next_contributor + amp +
+                "creator=" + Pnumber + amp +
+                "title=" + Title;
+        url = url.replaceAll(" ", "%20");
+        new ProcessingTask().execute(url);
         finish();
+        }
     }
 
     private void createStory()
     {
+
     }
 
     protected class ProcessingTask extends AsyncTask<String, Void, String>{
@@ -92,17 +120,8 @@ public class CreateStoryActivity extends Activity
             String flag = "0";
             StringBuilder builder = new StringBuilder();
             HttpClient client = new DefaultHttpClient();
-            String amp = "&";
-            String base = "http://myligaapi.elementfx.com/teleApp/editStory.php";//?flag=add&" +
-            // "story=";
-            String url = base +"?flag=add" + amp +
-                    "story=" + Story + amp +
-                    "words_max="+ Max_words + amp +
-                    "next=" + Next_contributor + amp +
-                    "creator=" + Pnumber + amp +
-                    "title=" + Title;
-            url = url.replaceAll(" ", "%20");
-            HttpGet httpGet = new HttpGet(url);
+
+            HttpGet httpGet = new HttpGet(urls[0]);
 
             try {
                 HttpResponse response = client.execute(httpGet);
@@ -139,7 +158,9 @@ public class CreateStoryActivity extends Activity
         @Override
         protected void onPostExecute(String result) {
             if (result.equals("1"))
-                Toast.makeText(getApplicationContext(),"Story created successful",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"Story created successfully",Toast.LENGTH_LONG).show();
+            else
+                Toast.makeText(getApplicationContext(),"Error creating story, try again later",Toast.LENGTH_LONG).show();
         }
     }
 
