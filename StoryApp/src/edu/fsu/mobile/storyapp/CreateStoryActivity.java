@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -43,6 +44,7 @@ public class CreateStoryActivity extends Activity
 	@Override
 	protected void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
 		setContentView(R.layout.create_view);
 
         //get phone number
@@ -105,13 +107,7 @@ public class CreateStoryActivity extends Activity
                 "title=" + Title;
         url = url.replaceAll(" ", "%20");
         new ProcessingTask().execute(url);
-        finish();
         }
-    }
-
-    private void createStory()
-    {
-
     }
 
     protected class ProcessingTask extends AsyncTask<String, Void, String>{
@@ -154,13 +150,18 @@ public class CreateStoryActivity extends Activity
 
             return flag;
         }
-
+        @Override
+        protected void onPreExecute(){
+            setProgressBarIndeterminateVisibility(true);
+        }
         @Override
         protected void onPostExecute(String result) {
+            setProgressBarIndeterminateVisibility(false);
             if (result.equals("1"))
                 Toast.makeText(getApplicationContext(),"Story created successfully",Toast.LENGTH_LONG).show();
             else
                 Toast.makeText(getApplicationContext(),"Error creating story, try again later",Toast.LENGTH_LONG).show();
+            finish();
         }
     }
 
